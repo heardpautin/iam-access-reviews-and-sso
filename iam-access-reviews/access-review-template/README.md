@@ -91,3 +91,5 @@ Ensure all exceptions are:
 ## Version Control
 - Update the template only when process requirements change
 - Do not modify completed access review artifacts after attestation
+
+“This folder contains standardized access review artifacts and supporting evidence used to execute periodic and event-driven IAM access reviews.”
