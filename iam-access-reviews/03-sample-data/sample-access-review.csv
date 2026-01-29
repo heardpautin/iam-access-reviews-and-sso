@@ -1,0 +1,11 @@
+UserID,UserName,Department,JobTitle,Application,AccessType,RoleOrGroup,IsPrivileged,Manager,ReviewDecision,ReviewerComments,RemediationAction
+U001,jdoe,Finance,Financial Analyst,Finance-App,Role,FIN-ANALYST,false,asmith,Approve,Access aligns with role,None
+U002,mbrown,Finance,Finance Manager,Finance-App,Role,FIN-MANAGER,true,asmith,Approve,Privileged access justified,None
+U003,tsmith,IT,System Administrator,Ticketing-Tool,Group,IT-ADMINS,true,jwilson,Approve,Required for admin duties,None
+U004,klong,HR,HR Generalist,HR-App,Role,HR-GENERAL,false,rthomas,Approve,Appropriate access,None
+U005,aperez,Sales,Sales Associate,CRM-App,Role,CRM-USER,false,mbaker,Approve,Standard sales access,None
+U006,rwhite,Finance,Financial Analyst,Finance-App,Role,FIN-MANAGER,true,asmith,Remove,Over-privileged role,Remove FIN-MANAGER role
+U007,ccruz,IT,Help Desk Technician,Ticketing-Tool,Group,IT-ADMINS,true,jwilson,Remove,Admin access not required,Move to IT-HELPDESK group
+U008,nhall,Operations,Operations Coordinator,FileShare,Group,OPS-FULL-ACCESS,false,dlewis,Approve,Access reviewed and approved,None
+U009,bking,Finance,Contractor,Finance-App,Role,FIN-READONLY,false,asmith,Approve,Read-only access appropriate,None
+U010,ewong,HR,HR Intern,HR-App,Role,HR-GENERAL,false,rthomas,Remove,Intern should not have full role,Assign HR-INTERN role
