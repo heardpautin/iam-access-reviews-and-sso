@@ -79,3 +79,5 @@ Access reviews are a foundational IAM operation that:
 - Reduce organizational risk
 - Support audits
 - Enable business operations in a controlled, defensible manner
+
+This module represents a complete, audit-ready access review process.
